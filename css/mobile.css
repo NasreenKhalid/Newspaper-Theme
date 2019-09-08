@@ -1,0 +1,59 @@
+#main-nav .container{
+    display:grid;
+grid-template-columns: repeat(1,1fr);    
+}
+
+.logo{
+    justify-self: start;
+}
+
+
+
+.l-heading{
+    font-size:1.5rem;
+ }
+
+.top-container{
+    grid-template-areas:
+                 'showcase showcase'
+                 'showcase showcase'
+                 'top-box-a top-box-b';
+}
+
+
+ #gallery .items{
+     grid-template-columns: repeat(1,1fr);
+     padding-bottom: 1rem;
+     margin:0;
+    
+           }
+
+
+.items .item1,
+.items .item2,
+.items .item3,
+.items .item4{
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(75, 71, 71,0.5);
+}
+
+#latestnews .latest{
+grid-template-columns: repeat(1,1fr);
+}
+
+
+#events .event{
+    grid-template-columns: repeat(1,1fr);
+}
+
+#editorial .editorial{
+    grid-template-columns: repeat(1,1fr);
+} 
+
+#main-footer .footer-container{
+   display: block;
+}
+
+#main-footer .about{
+    display: none;
+}
